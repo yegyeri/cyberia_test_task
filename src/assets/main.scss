@@ -1,0 +1,26 @@
+@import './base.scss';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--grey);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--grey-light);
+  border-radius: 20px;
+}
+#app{
+  background: linear-gradient(180deg, #24252F 0%, #31313F 36.46%, #242530 100%);
+  width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
