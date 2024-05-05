@@ -1,29 +1,13 @@
-# cyberia_test_task
+Здравствуйте, здесь лежит выполненое задание от Компании Киберия
+Чтобы запустить проект необходимо:
+1.Скачать архив
+2.Запустить VS Code с установленным node.js и открыть папку cyberia_test_task-main
+3.В терминале Написать npm install
+4.Написать npm run dev
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Верстка адаптивна к параметрам с макета Figma
+Сделал на стеке Vue/Js/Scss
+Из внутренностей:
+1.Создал отдельный объект Api с методами, которые использовал при запросах на api
+2.Валидировал поле заполнения телефона через библиотеку v-mask, для разнообразия.
+3.При отправке формы все прошло успешно и ошибок 422 не было
